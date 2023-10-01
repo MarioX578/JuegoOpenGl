@@ -1,0 +1,11 @@
+apply plugin: 'java'
+
+dependencies {
+    implementation 'com.github.dcendents:android-maven-gradle-plugin:2.1'
+}
+
+repositories {
+    maven {
+        url "https://jitpack.io"
+    }
+}
